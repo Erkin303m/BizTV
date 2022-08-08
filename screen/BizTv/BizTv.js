@@ -76,7 +76,7 @@ const TV = [
 
 const BizTv = ({ navigation }) => {
     const [imgIndex, setImgIndex] = useState(0);
-    
+
 
     return (
         <ScrollView>
@@ -84,19 +84,23 @@ const BizTv = ({ navigation }) => {
                 <ImageBackground source={require("../../assets/backp.png")} style={styles.backgroundCard} >
 
                     <TouchableOpacity onPress={() => navigation.navigate("Player", { nomi: TV[imgIndex].video })} style={styles.playerImg} >
-                        <Image source={{uri: TV[imgIndex].picture}} style={styles.pictureLogo} />
+                        <Image source={{ uri: TV[imgIndex].picture }} style={styles.pictureLogo} />
+                        <View style={{flexDirection:"row",justifyContent:"center"}}>
+                            <Image source={{ uri: "https://s3.beelinetv.uz/buz-production/e790f53e326c2d89ac1e.png" }} style={styles.chenal} />
+                        </View>
+
                     </TouchableOpacity>
 
                 </ImageBackground>
                 {
                     TV.map((v, i) => {
-                        return <TouchableOpacity key={i} onPress={()=>setImgIndex(i)}>
-                            <View  style={styles.tvMenu}  >
-                            <Text style={styles.vaqt}>{v.vaqt}</Text>
-                            <Text>{v.nomi}</Text>
-                        </View>
+                        return <TouchableOpacity key={i} onPress={() => setImgIndex(i)}>
+                            <View style={styles.tvMenu}  >
+                                <Text style={styles.vaqt}>{v.vaqt}</Text>
+                                <Text>{v.nomi}</Text>
+                            </View>
                         </TouchableOpacity>
-                        
+
                     })
                 }
             </View>
@@ -106,7 +110,7 @@ const BizTv = ({ navigation }) => {
 const styles = StyleSheet.create({
 
     backgroundCard: {
-        // height: "50%"
+        paddingTop:15
     },
     tvMenu: {
         flexDirection: "row",
@@ -114,21 +118,29 @@ const styles = StyleSheet.create({
         marginBottom: 5,
         padding: 10,
         elevation: 10,
-        marginStart:15,
-        marginEnd:10
+        marginStart: 15,
+        marginEnd: 10
     },
     vaqt: {
         color: "gray",
         marginEnd: 10
     },
-    playerImg:{
-        backgroundColor:"white",
-        margin:15,
-        borderRadius:10,
-        elevation:5
+    playerImg: {
+        backgroundColor: "white",
+        margin: 15,
+        borderRadius: 10,
+        elevation: 5,
+        textAlign: "center",
+        padding: 5
     },
-    pictureLogo:{
-        height:200
+    pictureLogo: {
+        height: 200,
+        borderRadius:10
+    },
+    chenal: {
+        zIndex: 20,
+        width: "70%",
+        height: 50
     }
 })
 export default BizTv

@@ -1,9 +1,5 @@
 import React from 'react'
 import { Text, View, StyleSheet, Image, ImageBackground, ScrollView, Button } from 'react-native';
-import AntDesign from 'react-native-vector-icons/AntDesign';
-import Feather from 'react-native-vector-icons/Feather';
-import Entypo from 'react-native-vector-icons/Entypo';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 const Home = ({ navigation }) => {
     return (
@@ -27,41 +23,20 @@ const Home = ({ navigation }) => {
                         <Image source={require("../assets/bizm.png")} style={styles.pictureLogo} />
                     </View>
 
-                    {/* Nav bar */}
-                    {/* <View style={styles.navbarMain}>
-                        <View>
-                            <Text style={styles.navbarMainMini}><Feather name='tv'  style={{fontSize:20}} /></Text>
-                            <Text style={styles.navbarMainMini}>TV</Text>
-                        </View>
-                        <View>
-                            <Text style={styles.navbarMainMini}><Entypo name='radio'  style={{fontSize:20}} /></Text>
-                            <Text style={styles.navbarMainMini}>Biz Fm</Text>
-                        </View>
-                        <View>
-                            <Text style={styles.navbarMainMini}><FontAwesome name='newspaper-o'  style={{fontSize:20}} /></Text>
-                            <Text style={styles.navbarMainMini}>Yangiliklar</Text>
-                        </View>
-                        <View>
-                            <Text style={styles.navbarMainMini}><AntDesign name='videocamera'  style={{fontSize:20}}/></Text>
-                            <Text style={styles.navbarMainMini}>Ko'rsatuvlar</Text>
-                        </View>
-                        <View>
-                            <Text style={styles.navbarMainMini}><Entypo name='dots-three-horizontal' style={{fontSize:20}} /></Text>
-                            <Text style={styles.navbarMainMini}>Boshqa</Text>
-                        </View>
-                    </View> */}
+                    
                 </ImageBackground>
             </View>
         </ScrollView>
     )
 }
 const styles = StyleSheet.create({
+   
     backgroundCard: {
-        height: "100%"
+        minHeight:700
     },
     textHi: {
         textAlign: "center",
-        marginTop: 30
+        marginTop: 50
     },
     bizTv: {
         backgroundColor: "#FF4C98",
@@ -69,15 +44,14 @@ const styles = StyleSheet.create({
         height: 130,
         marginLeft: 20,
         marginRight: 20,
-        flex: 1,
         justifyContent: "center",
         alignItems: "center",
         paddingTop: 10,
         borderRadius: 19
     },
     pictureLogo: {
-        height: "100%",
-        width: 180
+        height: 80,
+        width: "40%"
     },
     bizC: {
         backgroundColor: "#12245E",
@@ -86,7 +60,6 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginLeft: 20,
         marginRight: 20,
-        flex: 1,
         justifyContent: "center",
         alignItems: "center",
         paddingTop: 10
@@ -98,7 +71,6 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginLeft: 20,
         marginRight: 20,
-        flex: 1,
         justifyContent: "center",
         alignItems: "center",
         paddingTop: 10,

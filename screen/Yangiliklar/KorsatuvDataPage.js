@@ -44,10 +44,10 @@ const Yangiliklar = [
 
 
 ]
-const BarchaY = ({ route, navigation }) => {
+const KorsatuvDataPage = ({ route, navigation }) => {
     console.log(route);
     return (
-        <ScrollView style={{backgroundColor:"white"}}>
+        <ScrollView  style={{backgroundColor:"white"}}>
             {
                 Yangiliklar.map((v, i) => {
                     return <View key={i}>
@@ -139,4 +139,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default BarchaY
+export default KorsatuvDataPage

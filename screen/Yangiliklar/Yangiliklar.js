@@ -10,13 +10,16 @@ const Tab = createMaterialTopTabNavigator();
 
 const Yangiliklar = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator style={styles.TabMenu}>
       <Tab.Screen name="Barcha yangiliklar" component={BarchaY} />
       <Tab.Screen name="Korsatuvlar" component={Korsatuvlar} />
     </Tab.Navigator>
   )
 }
 const styles = StyleSheet.create({
-
+  TabMenu:{
+    paddingTop:30,
+    backgroundColor:"white"
+  }
 })
 export default Yangiliklar
