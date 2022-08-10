@@ -7,9 +7,9 @@
     "icon": "./assets/bl.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/yellow.png",
+      "image": "./assets/logo4.png",
       "resizeMode": "contain",
-      "backgroundColor": "yellow"
+      "backgroundColor": "#CC5376"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

@@ -9,10 +9,10 @@ const Home = ({ navigation }) => {
 
                 <ImageBackground source={require("../assets/backp.png")} style={styles.backgroundCard} >
 
-                    <Text style={styles.textHi}>Assalomu alaykum, iltimos bizning kanallarimizdan birini tanlang iltimos ! </Text>
+                    <Text style={styles.textHi}>Assalomu alaykum, iltimos bizning kanallarimizdan birini tanlang ! </Text>
 
                     <View style={styles.bizTv} onTouchEnd={() => navigation.navigate('BizTv')}>
-                        <Image source={require("../assets/bizm.png")} style={styles.pictureLogo} />
+                        <Image source={require("../assets/logo4.png")} style={styles.pictureLogo} />
                     </View>
 
                     <View style={styles.bizC} onTouchEnd={() => navigation.navigate('BizC')}>

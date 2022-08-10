@@ -10,6 +10,7 @@ import KorsatuvDataPage from '../Yangiliklar/KorsatuvDataPage';
 import InfoK from '../Korsatuvlar/infoK';
 import Teledasturlar from '../Boshqa/Teledasturlar';
 import LoyihaH from '../Boshqa/LoyihaqHaqida';
+import BizM from "../BizTv/BizM"
 
 
 const Stack = createNativeStackNavigator();
@@ -22,6 +23,7 @@ const Navoigation = () => {
         <Stack.Screen name="BizTv" component={BizTv} options={{ headerShown: false }} />
         <Stack.Screen name="BizC" component={BizC} options={{ headerShown: false }} />
         <Stack.Screen name="Player" component={Player} options={{ headerShown: false }} />
+        <Stack.Screen name="BizM" component={BizM} options={{ headerShown: false }} />
         <Stack.Screen name="Markaziy Studio" component={KorsatuvDataPage}  />
         <Stack.Screen name="To'liq ma'lumot" component={InfoK}  />
         <Stack.Screen name="Teledasturlar" component={Teledasturlar}  />
