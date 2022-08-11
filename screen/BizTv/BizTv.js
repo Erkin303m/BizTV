@@ -36,7 +36,7 @@ const TV = [
     },
     {
         "nomi": "Sen bilan",
-        "picture": "https://www.gazeta.uz/media/img/2020/12/kaUnbh16089011393584_l.jpg",
+        "picture": "https://whyweseek.com/wp-content/uploads/2019/05/po-i-kalyan-complex-teahouse-view-bukhara.jpg",
         "video": "https://player.vimeo.com/external/307391139.sd.mp4?s=17f0ade69f05c0eaf648307c2f615685caf4f9a6&profile_id=164&oauth2_token_id=57447761",
         "vaqt": "12:00",
         "active": false
@@ -44,7 +44,7 @@ const TV = [
     },
     {
         "nomi": "Boriga baraka",
-        "picture": "https://www.gazeta.uz/media/img/2020/12/kaUnbh16089011393584_l.jpg",
+        "picture": "https://www.lostwithpurpose.com/wp-content/uploads/2019/09/DSC09466.jpg",
         "video": "",
         "vaqt": "12:00",
         "active": false
@@ -52,7 +52,7 @@ const TV = [
     },
     {
         "nomi": "Sen bilan",
-        "picture": "https://www.gazeta.uz/media/img/2020/12/kaUnbh16089011393584_l.jpg",
+        "picture": "https://images.unsplash.com/photo-1484591974057-265bb767ef71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
         "video": "",
         "vaqt": "12:00",
         "active": false
@@ -60,7 +60,7 @@ const TV = [
     },
     {
         "nomi": "Sen bilan",
-        "picture": "https://www.gazeta.uz/media/img/2020/12/kaUnbh16089011393584_l.jpg",
+        "picture": "https://fotoarte.com.uy/wp-content/uploads/2019/03/Landscape-fotoarte.jpg",
         "video": "",
         "vaqt": "12:00",
         "active": false
@@ -68,7 +68,7 @@ const TV = [
     },
     {
         "nomi": "Sen bilan",
-        "picture": "https://www.gazeta.uz/media/img/2020/12/kaUnbh16089011393584_l.jpg",
+        "picture": "https://cdn.photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg",
         "video": "",
         "vaqt": "12:00",
         "active": false
@@ -76,7 +76,7 @@ const TV = [
     },
     {
         "nomi": "Musiqa",
-        "picture": "https://www.gazeta.uz/media/img/2020/12/kaUnbh16089011393584_l.jpg",
+        "picture": "https://expertphotography.b-cdn.net/wp-content/uploads/2022/05/Landscape-Photography-Sophie-Turner.jpg",
         "video": "",
         "vaqt": "12:00",
         "active": false

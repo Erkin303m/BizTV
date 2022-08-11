@@ -12,7 +12,7 @@ const Home = ({ navigation }) => {
                     <Text style={styles.textHi}>Assalomu alaykum, iltimos bizning kanallarimizdan birini tanlang ! </Text>
 
                     <View style={styles.bizTv} onTouchEnd={() => navigation.navigate('BizTv')}>
-                        <Image source={require("../assets/logo4.png")} style={styles.pictureLogo} />
+                        <Image source={require("../assets/biztv.png")} style={styles.pictureLogo2} />
                     </View>
 
                     <View style={styles.bizC} onTouchEnd={() => navigation.navigate('BizC')}>
@@ -23,16 +23,16 @@ const Home = ({ navigation }) => {
                         <Image source={require("../assets/bizm.png")} style={styles.pictureLogo} />
                     </View>
 
-                    
+
                 </ImageBackground>
             </View>
         </ScrollView>
     )
 }
 const styles = StyleSheet.create({
-   
+
     backgroundCard: {
-        minHeight:700
+        minHeight: 700
     },
     textHi: {
         textAlign: "center",
@@ -52,6 +52,10 @@ const styles = StyleSheet.create({
     pictureLogo: {
         height: 80,
         width: "40%"
+    },
+    pictureLogo2: {
+        height: 51,
+        width: "33%"
     },
     bizC: {
         backgroundColor: "#12245E",
@@ -85,14 +89,14 @@ const styles = StyleSheet.create({
         justifyContent: "space-around",
         alignItems: "center",
         padding: 10,
-        shadowColor:"black",
-        shadowOffset:10,
-        elevation:90,
+        shadowColor: "black",
+        shadowOffset: 10,
+        elevation: 90,
     },
     navbarMainMini: {
         textAlign: "center",
-        color:"gray",
-        fontSize:10
+        color: "gray",
+        fontSize: 10
     }
 })
 export default Home

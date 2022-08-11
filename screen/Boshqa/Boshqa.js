@@ -44,10 +44,10 @@ const Boshqa = ({ navigation }) => {
         <TouchableOpacity onPress={() => navigation.navigate("Teledasturlar")}>
           <View style={styles.boshqaCard}>
             <View style={{ width: "30%" }}>
-              <Image source={{uri:"http://biztv.uz/static/media/logo.5f993187.png"}} style={styles.pictureLogo} />
+              <Image source={require("../../assets/bizm.png")} style={styles.pictureLogo} />
             </View>
             <View style={{ width: "70%" }}>
-              <Text>Teledasturlar!</Text>
+              <Text>Teledasturlar</Text>
             </View>
           </View>
         </TouchableOpacity>
@@ -64,7 +64,7 @@ const Boshqa = ({ navigation }) => {
         <TouchableOpacity onPress={() => navigation.navigate("Teledasturlar")}>
           <View style={styles.boshqaCard}>
             <View style={{ width: "30%" }}>
-              <Image source={require("../../assets/bizC.png")} style={styles.pictureLogo} />
+              <Image source={require("../../assets/bizm.png")} style={styles.pictureLogo} />
             </View>
             <View style={{ width: "70%" }}>
               <Text>Biz bilan aloqa</Text>
@@ -75,7 +75,7 @@ const Boshqa = ({ navigation }) => {
 
         {/* sozlamalar */}
         <View style={styles.switchCard}>
-          <TouchableOpacity onPress={()=>navigation.navigate("Loyiha haqida")}>
+          <TouchableOpacity onPress={() => navigation.navigate("Loyiha haqida")}>
             <View style={styles.chiziq}>
               <Text>Loyiha haqida</Text>
             </View>
